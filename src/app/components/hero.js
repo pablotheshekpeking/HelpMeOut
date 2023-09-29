@@ -1,6 +1,7 @@
 'use client'
 import { Stack, Box, Text, Button, Heading, Img } from "@chakra-ui/react";
-import { ArrowForwardIcon } from '@chakra-ui/icons'
+import { ArrowForwardIcon } from '@chakra-ui/icons';
+import Link from "next/link";
 import React from 'react';
 const Hero = () => {
     return (
