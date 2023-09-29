@@ -49,7 +49,7 @@ const Ready = () => {
 
                 {/** share your video */}
                 <Heading color={'#141414'} size={'sm'} mb={'10px'}>Share your video</Heading>
-                <Stack direction={'column'}>
+                <Stack direction={'row'} w={'75%'}>
                     <Box><Img src='/fbbutton.png' /></Box>
                     <Box><Img src='/whbutton.png' /></Box>
                     <Box><Img src='/telbutton.png' /></Box>
