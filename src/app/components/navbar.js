@@ -29,7 +29,7 @@ const Navbar = () => {
 
             {/** login link */}
             <Box m={'auto'} w={'25%'}>
-                <Link href={'./auth'}><Heading size='xs' color={'#100A42'} textAlign={'center'} float={'right'}>Get Started</Heading></Link>
+                <Link href={'./login'}><Heading size='xs' color={'#100A42'} textAlign={'center'} float={'right'}>Get Started</Heading></Link>
             </Box>
         </Stack>
     );
