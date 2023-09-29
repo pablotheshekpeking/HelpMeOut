@@ -33,7 +33,7 @@ export default function Form() {
                             Join millions of others in sharing succesful moves on  <Text color={'grey'}>HelpMeOut.</Text>
                         </Text>
                         {/** other login */}
-                        <Box border={'1px solid'} borderColor={'black'} borderRadius={'20px'} mb={'20px'} w={'100%'}>
+                        <Box border={'1px solid'} borderColor={'black'} borderRadius={'20px'} mb={'20px'} mt={'50px'} w={'100%'}>
                             <Stack direction={'row'} p={'20px'} w={'100%'}>
                                 <Box><Img src='/Google.png' /></Box>
                                 <Box><Text>Continue with Google</Text></Box>
