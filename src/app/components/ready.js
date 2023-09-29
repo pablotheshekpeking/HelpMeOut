@@ -18,12 +18,11 @@ const Ready = () => {
                 <Text color={'#413C6D'} fontWeight={'bold'} mb={'50px'}>Untitled_Video_20232509 <EditIcon color={'#413C6D'} /> </Text>
 
                 {/** enter email */}
-                <InputGroup size='md' mb={'50px'}>
+                <InputGroup size='md' mb={'50px'} w={'90%'}>
                     <Input
                         pr='4.5rem'
                         type='email'
                         placeholder='enter email of receiver'
-                        w={'90%'}
                     />
                     <InputRightElement width='4.5rem'>
                         <Button h='1.75rem' size='sm' bg={'#605C84'}>
@@ -34,12 +33,11 @@ const Ready = () => {
                 
                 {/** video url */}
                 <Heading color={'#141414'} size={'sm'} mb={'10px'}>Video Url</Heading>
-                <InputGroup size='md' mb={'50px'}>
+                <InputGroup size='md' mb={'50px'} w={'90%'}>
                     <Input
                         pr='4.5rem'
                         type='email'
                         placeholder='https://www.helpmeout/Untitled_Video_20232509'
-                        w={'90%'} 
                     />
                     <InputRightElement width='4.5rem'>
                         <Button h='1.75rem' size='sm' border={'1px solid'} borderColor={'#605C84'} bg={'white'} color={'#605C84'}>
@@ -60,7 +58,7 @@ const Ready = () => {
             </Box>
             
             {/** right side */}
-            <Box w={['100%', '1005', '50%', '50%']} borderLeft={'1px solid'} borderColor={'#BBBBBB'}>
+            <Box w={['100%', '1005', '50%', '50%']} borderLeft={'2px solid'} borderColor={'#BBBBBB'}>
                 <Stack direction={'column'} p={'20px'}>
                     <Box><Img src='/video.png' /></Box>
                     <Box><Img src='/transcript.png' /></Box>
