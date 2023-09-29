@@ -51,7 +51,7 @@ export default function Form() {
                         bg={useColorModeValue('white', 'gray.700')}
                         p={8}
                     >
-                        <Img src='/or.png' w={'100%'} pt={'50px'} pb={'50px'} />
+                        <Img src='/or.png' w={'100%'} pt={'20px'} pb={'20px'} />
                         <Stack spacing={4}>
                             <FormControl id="email">
                                 <FormLabel>Email </FormLabel>
