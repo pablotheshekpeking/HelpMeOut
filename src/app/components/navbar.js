@@ -5,7 +5,7 @@ import React from "react";
 
 const Navbar = () => {
     return (
-        <Stack direction={'row'} p={'20px'} m={'auto'}>
+        <Stack direction={'row'} pr={'50px'} pl={'50px'} pt={'20px'} pb={'20px'} m={'auto'} borderBottom={'2px solid'} borderColor={'#dddddd'}>
             {/** logo */}
             <Box w={'25%'}>
                 <Link href={'./'}><Img src="/logo.png" /></Link>
