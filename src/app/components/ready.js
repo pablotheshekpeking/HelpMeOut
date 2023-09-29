@@ -23,7 +23,7 @@ const Ready = () => {
                         pr='4.5rem'
                         type='email'
                         placeholder='enter email of receiver'
-                        w={'90%'}
+                        w={'500px'}
                     />
                     <InputRightElement width='4.5rem'>
                         <Button h='1.75rem' size='sm' bg={'#605C84'}>
@@ -33,13 +33,13 @@ const Ready = () => {
                 </InputGroup>
                 
                 {/** video url */}
-                <Heading color={'#141414'} size={'md'}>Video Url</Heading>
+                <Heading color={'#141414'} size={'sm'}>Video Url</Heading>
                 <InputGroup size='md' mb={'50px'}>
                     <Input
                         pr='4.5rem'
                         type='email'
                         placeholder='https://www.helpmeout/Untitled_Video_20232509'
-                        w={'90%'}
+                        w={'500px'}
                     />
                     <InputRightElement width='4.5rem'>
                         <Button h='1.75rem' size='sm' borderColor={'#605C84'} bg={'white'} color={'#605C84'}>
