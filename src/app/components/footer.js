@@ -1,17 +1,17 @@
 'use client'
 
-import { Stack, Box, Img, Text} from '@chakra-ui/react';
-import React from 'react'; 
+import { Stack, Box, Img, Text } from '@chakra-ui/react';
+import React from 'react';
 const Footer = () => {
-    return ( 
+    return (
         <Stack direction={'row'} bg={'#120B48'}>
             <Box w={'25%'}>
                 <Img src='footerLogo.png' m={'auto'} />
             </Box>
             <Box w={'75%'} color={'white'}>
-                <Stack>
+                <Stack direction={'row'}>
                     <Box className='Menu'>
-                        <Stack>
+                        <Stack direction={'column'}>
                             <Box><Text>Menu</Text></Box>
                             <Box><Text>Home</Text></Box>
                             <Box><Text>Converter</Text></Box>
@@ -19,7 +19,7 @@ const Footer = () => {
                         </Stack>
                     </Box>
                     <Box className='About us'>
-                        <Stack>
+                        <Stack direction={'column'}>
                             <Box><Text>About us</Text></Box>
                             <Box><Text>About</Text></Box>
                             <Box><Text>Contact us</Text></Box>
@@ -27,7 +27,7 @@ const Footer = () => {
                         </Stack>
                     </Box>
                     <Box className='Screen Record'>
-                        <Stack>
+                        <Stack direction={'column'}>
                             <Box><Text>Screen Record</Text></Box>
                             <Box><Text>Browser Window</Text></Box>
                             <Box><Text>Desktop</Text></Box>
@@ -37,7 +37,7 @@ const Footer = () => {
                 </Stack>
             </Box>
         </Stack>
-     );
+    );
 }
- 
+
 export default Footer;
