@@ -28,8 +28,26 @@ const HowItWorks = () => {
                         <Box><Img src='hiwimg.png' /></Box>
                     </Stack>
                 </Box>
-                <Box></Box>
-                <Box></Box>
+                <Box className='part2'>
+                <Img src='Icon2.png' m={'auto'} />
+                    <Stack direction={'column'}>
+                        <Box>
+                            <Heading color={'#100A42'}>Share Your Recording</Heading>
+                            <Text color={'grey'}>We generate a shareable link for your video. Simply send it to your audience via email or copy the link to send via any platform.</Text>
+                        </Box>
+                        <Box><Img src='hiwimg.png' /></Box>
+                    </Stack>
+                </Box>
+                <Box className='part3'>
+                <Img src='Icon3.png' m={'auto'} />
+                    <Stack direction={'column'}>
+                        <Box>
+                            <Heading color={'#100A42'}>Learn Effortlessly</Heading>
+                            <Text color={'grey'}>Recipients can access your video effortlessly through the provided link, with our user-friendly interface suitable for everyone.</Text>
+                        </Box>
+                        <Box><Img src='hiwimg.png' /></Box>
+                    </Stack>
+                </Box>
             </Stack>
         </>
     );
