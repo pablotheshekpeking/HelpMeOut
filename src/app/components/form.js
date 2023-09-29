@@ -25,19 +25,16 @@ export default function Form() {
           minH={'100vh'}
           align={'center'}
           justify={'center'}
-          bg={useColorModeValue('gray.50', 'gray.800')}
       >
           <Stack spacing={8} mx={'auto'} maxW={'lg'} py={12} px={6}>
               <Stack align={'center'}>
                   <Heading fontSize={'4xl'}>Log in or Sign up</Heading>
                   <Text fontSize={'lg'} color={'gray.600'}>
-                      Join millions of others in sharing succesful moves on  <Text color={'blue.400'}>HelpMeOut</Text> ✌️
+                      Join millions of others in sharing succesful moves on  <Text color={'grey'}>HelpMeOut</Text>
                   </Text>
               </Stack>
               <Box
-                  rounded={'lg'}
                   bg={useColorModeValue('white', 'gray.700')}
-                  boxShadow={'lg'}
                   p={8}
               >
                   <Stack spacing={4}>
