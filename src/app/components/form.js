@@ -35,15 +35,15 @@ export default function Form() {
                         {/** other login */}
                         <Box border={'1px solid'} borderColor={'black'} borderRadius={'20px'} mb={'20px'} mt={'50px'} w={'100%'}>
                             <Stack direction={'row'} p={'10px'} w={'100%'}>
-                                <Box align={'center'}><Img src='/Google.png' /></Box>
-                                <Box><Text textAlign={'center'}>Continue with Google</Text></Box>
+                                <Box w={'50%'} align={'center'}><Img src='/Google.png' /></Box>
+                                <Box w={'50%'}><Text textAlign={'center'}>Continue with Google</Text></Box>
                             </Stack>
                         </Box>
 
                         <Box border={'1px solid'} borderColor={'black'} borderRadius={'20px'} w={'100%'}>
                             <Stack direction={'row'} p={'10px'} w={'100%'}>
-                                <Box align={'center'}><Img src='/Facebook.png' /></Box>
-                                <Box><Text textAlign={'center'}>Continue with Facebook</Text></Box>
+                                <Box align={'center'} w={'50%'}><Img src='/Facebook.png' /></Box>
+                                <Box w={'50%'}><Text textAlign={'center'}>Continue with Facebook</Text></Box>
                             </Stack>
                         </Box>
                     </Stack>
@@ -51,13 +51,13 @@ export default function Form() {
                         bg={useColorModeValue('white', 'gray.700')}
                         p={8}
                     >
-                        <Img src='/or.png' w={'100%'} pt={'20px'} pb={'20px'} />
+                        <Img src='/or.png' w={'100%'} pb={'20px'} />
                         <Stack spacing={4}>
-                            <FormControl id="email">
+                            <FormControl id="email" w={'100%'}>
                                 <FormLabel>Email </FormLabel>
                                 <Input type="email" placeholder='Enter your email address' />
                             </FormControl>
-                            <FormControl id="password">
+                            <FormControl id="password" w={'100%'}>
                                 <FormLabel>Password</FormLabel>
                                 <Input type="password" placeholder='Enter your password' />
                             </FormControl>
@@ -68,6 +68,7 @@ export default function Form() {
                                     _hover={{
                                         bg: 'blue.500',
                                     }}
+                                    w={'100%'}
                                 >
                                     Sign up
                                 </Button>
