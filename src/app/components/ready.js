@@ -60,7 +60,7 @@ const Ready = () => {
             {/** right side */}
             <Box w={['100%', '1005', '50%', '50%']} borderLeft={'2px solid'} borderColor={'#BBBBBB'}>
                 <Stack direction={'column'} p={'20px'}>
-                    <Box><Img src='/video.png' /></Box>
+                    <Box mb={'50px'}><Img src='/video.png' /></Box>
                     <Box><Img src='/transcript.png' /></Box>
                 </Stack>
             </Box>
