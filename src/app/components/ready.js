@@ -10,7 +10,8 @@ const Ready = () => {
             minH={'100vh'}
             p={'50px'}
         >
-            <Box w={'50%'}>
+            {/** left side */}
+            <Box w={['100%', '1005', '50%', '50%']}>
                 <Heading color={'#141414'} size={'lg'} mb={'20px'}>Your video is ready!</Heading>
 
                 <Text fontSize={'15px'}>Name </Text>
@@ -22,7 +23,7 @@ const Ready = () => {
                         pr='4.5rem'
                         type='email'
                         placeholder='enter email of receiver'
-                        w={'500px'}
+                        w={'100%'}
                     />
                     <InputRightElement width='4.5rem'>
                         <Button h='1.75rem' size='sm' bg={'#605C84'}>
@@ -38,7 +39,7 @@ const Ready = () => {
                         pr='4.5rem'
                         type='email'
                         placeholder='https://www.helpmeout/Untitled_Video_20232509'
-                        w={'500px'} 
+                        w={'100%'} 
                     />
                     <InputRightElement width='4.5rem'>
                         <Button h='1.75rem' size='sm' border={'1px solid'} borderColor={'#605C84'} bg={'white'} color={'#605C84'}>
@@ -57,8 +58,9 @@ const Ready = () => {
 
 
             </Box>
-            <Divider orientation='vertical' />
-            <Box w={'50%'}>
+            
+            {/** right side */}
+            <Box w={['100%', '1005', '50%', '50%']}>
                 <Stack direction={'column'}>
                     <Box><Img src='/video.png' /></Box>
                     <Box><Img src='/transcript.png' /></Box>
