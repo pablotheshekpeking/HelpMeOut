@@ -33,7 +33,7 @@ const HowItWorks = () => {
                     <Stack direction={'column'}>
                         <Box>
                             <Heading color={'#100A42'} p={'15px'} size={'md'}>Share Your Recording</Heading>
-                            <Text color={'grey'}>We generate a shareable link for your video. Simply send it to your audience via email or copy the link to send via any platform.</Text>
+                            <Text color={'grey'} fontSize={'15px'}>We generate a shareable link for your video. Simply send it to your audience via email or copy the link to send via any platform.</Text>
                         </Box>
                         <Box pt={'30px'}><Img src='hiwimg.png' m={'auto'} /></Box>
                     </Stack>
@@ -43,7 +43,7 @@ const HowItWorks = () => {
                     <Stack direction={'column'}>
                         <Box>
                             <Heading color={'#100A42'} p={'15px'} size={'md'}>Learn Effortlessly</Heading>
-                            <Text color={'grey'}>Recipients can access your video effortlessly through the provided link, with our user-friendly interface suitable for everyone.</Text>
+                            <Text color={'grey'} fontSize={'15px'}>Recipients can access your video effortlessly through the provided link, with our user-friendly interface suitable for everyone.</Text>
                         </Box>
                         <Box pt={'30px'}><Img src='hiwimg.png' m={'auto'} /></Box>
                     </Stack>
