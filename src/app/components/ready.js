@@ -23,7 +23,7 @@ const Ready = () => {
                         pr='4.5rem'
                         type='email'
                         placeholder='enter email of receiver'
-                        w={'100%'}
+                        w={'90%'}
                     />
                     <InputRightElement width='4.5rem'>
                         <Button h='1.75rem' size='sm' bg={'#605C84'}>
@@ -39,7 +39,7 @@ const Ready = () => {
                         pr='4.5rem'
                         type='email'
                         placeholder='https://www.helpmeout/Untitled_Video_20232509'
-                        w={'100%'} 
+                        w={'90%'} 
                     />
                     <InputRightElement width='4.5rem'>
                         <Button h='1.75rem' size='sm' border={'1px solid'} borderColor={'#605C84'} bg={'white'} color={'#605C84'}>
@@ -60,8 +60,8 @@ const Ready = () => {
             </Box>
             
             {/** right side */}
-            <Box w={['100%', '1005', '50%', '50%']}>
-                <Stack direction={'column'}>
+            <Box w={['100%', '1005', '50%', '50%']} borderLeft={'1px solid'} borderColor={'#BBBBBB'}>
+                <Stack direction={'column'} p={'20px'}>
                     <Box><Img src='/video.png' /></Box>
                     <Box><Img src='/transcript.png' /></Box>
                 </Stack>
