@@ -38,7 +38,7 @@ const Ready = () => {
                         pr='4.5rem'
                         type='email'
                         placeholder='https://www.helpmeout/Untitled_Video_20232509'
-                        w={'500px'}
+                        w={'500px'} 
                     />
                     <InputRightElement width='4.5rem'>
                         <Button h='1.75rem' size='sm' border={'1px solid'} borderColor={'#605C84'} bg={'white'} color={'#605C84'}>
