@@ -42,8 +42,8 @@ const Ready = () => {
                         w={'90%'}
                     />
                     <InputRightElement width='4.5rem'>
-                        <Button h='1.75rem' size='sm' borderColor={'#605C84'} bg={'white'}>
-                            <CopyIcon /> Copy
+                        <Button h='1.75rem' size='sm' borderColor={'#605C84'} bg={'white'} color={'#605C84'}>
+                            <CopyIcon color={'#605C84'} /> Copy
                         </Button>
                     </InputRightElement>
                 </InputGroup>
