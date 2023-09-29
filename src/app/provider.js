@@ -5,6 +5,7 @@ import { Box } from '@chakra-ui/react';
 import Navbar from './components/navbar';
 import Hero from './components/hero';
 import Features from './components/features';
+import HowItWorks from './components/howitworks';
 
 export function Providers({ children }) {
   return (
@@ -20,6 +21,8 @@ export function Providers({ children }) {
         <Features />
 
         <Box w={'100%'} h={'50px'} bg={'#F4F6F8'}></Box>
+
+        <HowItWorks />
 
       </ChakraProvider>
     </CacheProvider>
