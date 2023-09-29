@@ -5,12 +5,12 @@ import React from 'react';
 const Footer = () => {
     return (
         <Stack direction={'row'} bg={'#120B48'}>
-            <Box w={'25%'}>
+            <Box w={'40%'}>
                 <Img src='footerLogo.png' m={'auto'} />
             </Box>
-            <Box w={'75%'} color={'white'}>
+            <Box w={'60%'} color={'white'}>
                 <Stack direction={'row'}>
-                    <Box className='Menu'>
+                    <Box className='Menu' w={'33.3%'}>
                         <Stack direction={'column'}>
                             <Box><Text>Menu</Text></Box>
                             <Box><Text>Home</Text></Box>
@@ -18,7 +18,7 @@ const Footer = () => {
                             <Box><Text>How It Works</Text></Box>
                         </Stack>
                     </Box>
-                    <Box className='About us'>
+                    <Box className='About us' w={'33.3%'}>
                         <Stack direction={'column'}>
                             <Box><Text>About us</Text></Box>
                             <Box><Text>About</Text></Box>
@@ -26,7 +26,7 @@ const Footer = () => {
                             <Box><Text>Privacy Policy</Text></Box>
                         </Stack>
                     </Box>
-                    <Box className='Screen Record'>
+                    <Box className='Screen Record' w={'33.3%'}>
                         <Stack direction={'column'}>
                             <Box><Text>Screen Record</Text></Box>
                             <Box><Text>Browser Window</Text></Box>
