@@ -11,7 +11,7 @@ const Navbar = () => {
                 <Link href={'./'}><Img src="/logo.png" /></Link>
             </Box>
 
-            {/** nav items */}
+            {/** nav items list */}
             <Box m={'auto'} w={'50%'}>
                 <Stack direction={'row'} m={'auto'}>
                     <Box w={'25%'} m={'auto'}>
