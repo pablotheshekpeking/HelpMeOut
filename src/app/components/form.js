@@ -27,16 +27,31 @@ export default function Form() {
           justify={'center'}
       >
           <Stack spacing={8} mx={'auto'} maxW={'lg'} py={12} px={6}>
-              <Stack align={'center'}>
+              <Stack align={'center'} direction={'column'}>
                   <Heading fontSize={'4xl'}>Log in or Sign up</Heading>
-                  <Text fontSize={'lg'} color={'gray.600'}>
-                      Join millions of others in sharing succesful moves on  <Text color={'grey'}>HelpMeOut</Text>
+                  <Text fontSize={'sm'} color={'gray.600'} textAlign={'center'}>
+                      Join millions of others in sharing succesful moves on  <Text color={'grey'}>HelpMeOut.</Text>
                   </Text>
+                  {/** other login */}
+                  <Box border={'1px solid'} borderColor={'black'}>
+                    <Stack direction={'row'}>
+                        <Box><Img src='/Google.png' /></Box>
+                        <Box><Text>Continue with Google</Text></Box>
+                    </Stack>
+                  </Box>
+
+                  <Box border={'1px solid'} borderColor={'black'}>
+                    <Stack direction={'row'}>
+                        <Box><Img src='/Facebook.png' /></Box>
+                        <Box><Text>Continue with Facebook</Text></Box>
+                    </Stack>
+                  </Box>
               </Stack>
               <Box
                   bg={useColorModeValue('white', 'gray.700')}
                   p={8}
               >
+                <Img src='/or.png' w={'100%'} />
                   <Stack spacing={4}>
                       <FormControl id="email">
                           <FormLabel>Email </FormLabel>
@@ -54,7 +69,7 @@ export default function Form() {
                                   bg: 'blue.500',
                               }}
                           >
-                              Sign in
+                              Sign up
                           </Button>
                       </Stack>
                   </Stack>
