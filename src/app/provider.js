@@ -2,6 +2,7 @@
 import { CacheProvider } from '@chakra-ui/next-js';
 import { ChakraProvider } from '@chakra-ui/react';
 import Navbar from './components/navbar';
+import Hero from './components/hero';
 
 export function Providers({ children }) {
   return (
@@ -9,6 +10,8 @@ export function Providers({ children }) {
       <ChakraProvider>
         
         <Navbar />
+
+        <Hero />
 
       </ChakraProvider>
     </CacheProvider>
