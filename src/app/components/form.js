@@ -20,7 +20,7 @@ import Link from "next/link";
 export default function Form() {
   return (
     <>
-    <Link href={'../'}><Img src='/logo.png' /></Link>
+    <Link href={'../'}><Img src='/logo.png' p={'100px'}/></Link>
     <Flex
           minH={'100vh'}
           align={'center'}
@@ -33,15 +33,15 @@ export default function Form() {
                       Join millions of others in sharing succesful moves on  <Text color={'grey'}>HelpMeOut.</Text>
                   </Text>
                   {/** other login */}
-                  <Box border={'1px solid'} borderColor={'black'}>
-                    <Stack direction={'row'}>
+                  <Box border={'1px solid'} borderColor={'black'} borderRadius={'20px'}>
+                    <Stack direction={'row'} p={'20px'}>
                         <Box><Img src='/Google.png' /></Box>
                         <Box><Text>Continue with Google</Text></Box>
                     </Stack>
                   </Box>
 
-                  <Box border={'1px solid'} borderColor={'black'}>
-                    <Stack direction={'row'}>
+                  <Box border={'1px solid'} borderColor={'black'} borderRadius={'20px'}>
+                    <Stack direction={'row'} p={'20px'}>
                         <Box><Img src='/Facebook.png' /></Box>
                         <Box><Text>Continue with Facebook</Text></Box>
                     </Stack>
@@ -51,7 +51,7 @@ export default function Form() {
                   bg={useColorModeValue('white', 'gray.700')}
                   p={8}
               >
-                <Img src='/or.png' w={'100%'} />
+                <Img src='/or.png' w={'100%'} pt={'50px'} pb={'50px'} />
                   <Stack spacing={4}>
                       <FormControl id="email">
                           <FormLabel>Email </FormLabel>
