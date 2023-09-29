@@ -18,7 +18,7 @@ const HowItWorks = () => {
             pl={'50px'}
             pb={'50px'}
             >
-                <Box className='part1'>
+                <Box className='part1' textAlign={'center'} w={'90%'}>
                 <Img src='Icon1.png' m={'auto'} />
                     <Stack direction={'column'}>
                         <Box>
@@ -28,7 +28,7 @@ const HowItWorks = () => {
                         <Box><Img src='hiwimg.png' /></Box>
                     </Stack>
                 </Box>
-                <Box className='part2'>
+                <Box className='part2' textAlign={'center'} w={'90%'}>
                 <Img src='Icon2.png' m={'auto'} />
                     <Stack direction={'column'}>
                         <Box>
@@ -38,7 +38,7 @@ const HowItWorks = () => {
                         <Box><Img src='hiwimg.png' /></Box>
                     </Stack>
                 </Box>
-                <Box className='part3'>
+                <Box className='part3' textAlign={'center'} w={'90%'}>
                 <Img src='Icon3.png' m={'auto'} />
                     <Stack direction={'column'}>
                         <Box>
