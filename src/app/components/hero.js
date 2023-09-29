@@ -23,9 +23,9 @@ const Hero = () => {
                         <Text color={'black'} opacity={'75%'}>Help your friends and loved ones by creating and sending videos on how to get things done on a website.</Text>
                     </Box>
                     <Box mt={'50px'}>
-                        <Button colorScheme='#100A42' size='lg' bg={'#100A42'}>
+                        <Link href={'./auth'}><Button colorScheme='#100A42' size='lg' bg={'#100A42'}>
                             Install HelpMeOut <ArrowForwardIcon />
-                        </Button>
+                        </Button></Link>
                     </Box>
                 </Stack>
             </Box>
