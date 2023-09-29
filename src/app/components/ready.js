@@ -8,8 +8,7 @@ const Ready = () => {
         <Stack
             direction={['column', 'column', 'row', 'row']}
             minH={'100vh'}
-            pl={'50px'}
-            pr={'50px'}
+            p={'50px'}
         >
             <Box>
                 <Heading color={'#141414'} size={'lg'} mb={'20px'}>Your video is ready!</Heading>
@@ -42,7 +41,7 @@ const Ready = () => {
                         w={'500px'}
                     />
                     <InputRightElement width='4.5rem'>
-                        <Button h='1.75rem' size='sm' borderColor={'#605C84'} bg={'white'} color={'#605C84'}>
+                        <Button h='1.75rem' size='sm' border={'1px solid'} borderColor={'#605C84'} bg={'white'} color={'#605C84'}>
                             <CopyIcon color={'#605C84'} /> Copy
                         </Button>
                     </InputRightElement>
