@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-import { Providers } from './provider'
+import { Providersa } from './providera'
 
 export default function Home() {
   return (
-    <Providers />
+    <Providersa />
   )
 }
