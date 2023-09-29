@@ -15,7 +15,7 @@ export function Providers({ children }) {
 
         <Hero />
 
-        <Box w={'100%'} h={'50px'} bg={'#dddddd'}></Box>
+        <Box w={'100%'} h={'50px'} bg={'#F4F6F8'}></Box>
 
         <Features />
 
