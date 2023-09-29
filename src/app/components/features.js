@@ -21,7 +21,7 @@ const Features = () => {
                 pr={'50px'}
                 pl={'50px'}
             >
-                <Box></Box>
+                <Box><Img src="/Check.png" /></Box>
                 <Box><Img src="/features.png" /></Box>
             </Stack>
         </>
