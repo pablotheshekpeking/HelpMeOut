@@ -1,6 +1,6 @@
 'use client'
 
-import { Stack, Box, Text, Heading, Img, Input, InputGroup, InputRightElement, Button } from '@chakra-ui/react';
+import { Stack, Box, Text, Heading, Img, Input, InputGroup, InputRightElement, Button, Divider } from '@chakra-ui/react';
 import { EditIcon, CopyIcon } from '@chakra-ui/icons';
 import React from 'react';
 const Ready = () => {
@@ -57,7 +57,13 @@ const Ready = () => {
 
 
             </Box>
-            <Box></Box>
+            <Divider />
+            <Box>
+                <Stack direction={'row'}>
+                    <Box><Img src='/video.png' /></Box>
+                    <Box><Img src='/transcript.png' /></Box>
+                </Stack>
+            </Box>
         </Stack>
     );
 }
