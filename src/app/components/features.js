@@ -6,21 +6,23 @@ const Features = () => {
     return (
         <>
             {/** heading */}
-            <Heading textAlign={'center'} color={'#141414'}>
-                Features
-            </Heading>
-            <Text color={'grey'} textAlign={'center'}>
-            Key Highlights of Our Extension
-            </Text>
+            <Box p={'50px'}>
+                <Heading textAlign={'center'} color={'#141414'}>
+                    Features
+                </Heading>
+                <Text color={'grey'} textAlign={'center'} pt={'10px'}>
+                    Key Highlights of Our Extension
+                </Text>
+            </Box>
 
             {/** content */}
             <Stack
-            direction={['column', 'column', 'row', 'row']}
-            pr={'50px'}
-            pl={'50px'}
+                direction={['column', 'column', 'row', 'row']}
+                pr={'50px'}
+                pl={'50px'}
             >
                 <Box></Box>
-                <Box><Img src="/features.png"/></Box>
+                <Box><Img src="/features.png" /></Box>
             </Stack>
         </>
     );
