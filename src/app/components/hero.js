@@ -7,6 +7,8 @@ const Hero = () => {
         <Stack className="hero"
             minH={'100vh'}
             direction={'row'}
+            pr={'50px'}
+            pl={'50px'}
         >
             {/** text side */}
             <Box m={'auto'}>
