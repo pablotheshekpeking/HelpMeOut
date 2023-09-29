@@ -5,11 +5,11 @@ import React from "react";
 
 const Navbar = () => {
     return (
-        <Stack 
-        direction={['column', 'column', 'row', 'row']} 
-        pr={'50px'} pl={'50px'} pt={'20px'} pb={'20px'} 
-        m={'auto'} 
-        borderBottom={'2px solid'} borderColor={'#dddddd'}>
+        <Stack
+            direction={['column', 'column', 'row', 'row']}
+            pr={'50px'} pl={'50px'} pt={'20px'} pb={'20px'}
+            m={'auto'}
+            borderBottom={'2px solid'} borderColor={'#dddddd'}>
             {/** logo */}
             <Box w={'25%'}>
                 <Link href={'./'}><Img src="/logo.png" /></Link>
@@ -29,7 +29,10 @@ const Navbar = () => {
 
             {/** login link */}
             <Box m={'auto'} w={'25%'}>
-                <Link href={'./login'}><Heading size='xs' color={'#100A42'} textAlign={'center'} float={'right'}>Get Started</Heading></Link>
+                <Link href={'./login'}><Heading size='xs' color={'#100A42'} textAlign={'center'} float={'right'}
+                    _hover={{
+                        bg: 'blue.500',
+                    }}>Get Started</Heading></Link>
             </Box>
         </Stack>
     );
