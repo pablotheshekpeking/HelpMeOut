@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <Stack direction={'row'} bg={'#120B48'} p={'100px'}>
             <Box w={'40%'}>
-                <Img src='footerLogo.png' m={'auto'} />
+                <Img src='footerLogo.png' />
             </Box>
             <Box w={'60%'} color={'white'}>
                 <Stack direction={'row'}>
