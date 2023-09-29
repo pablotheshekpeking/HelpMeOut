@@ -4,7 +4,7 @@ import { Stack, Box, Img, Text } from '@chakra-ui/react';
 import React from 'react';
 const Footer = () => {
     return (
-        <Stack direction={'row'} bg={'#120B48'} p={'50px'}>
+        <Stack direction={'row'} bg={'#120B48'} p={'100px'}>
             <Box w={'40%'}>
                 <Img src='footerLogo.png' m={'auto'} />
             </Box>
@@ -12,7 +12,7 @@ const Footer = () => {
                 <Stack direction={'row'}>
                     <Box className='Menu' w={'33.3%'}>
                         <Stack direction={'column'}>
-                            <Box><Text>Menu</Text></Box>
+                            <Box><Text fontWeight={'bold'}>Menu</Text></Box>
                             <Box><Text>Home</Text></Box>
                             <Box><Text>Converter</Text></Box>
                             <Box><Text>How It Works</Text></Box>
@@ -20,7 +20,7 @@ const Footer = () => {
                     </Box>
                     <Box className='About us' w={'33.3%'}>
                         <Stack direction={'column'}>
-                            <Box><Text>About us</Text></Box>
+                            <Box><Text fontWeight={'bold'}>About us</Text></Box>
                             <Box><Text>About</Text></Box>
                             <Box><Text>Contact us</Text></Box>
                             <Box><Text>Privacy Policy</Text></Box>
@@ -28,7 +28,7 @@ const Footer = () => {
                     </Box>
                     <Box className='Screen Record' w={'33.3%'}>
                         <Stack direction={'column'}>
-                            <Box><Text>Screen Record</Text></Box>
+                            <Box><Text fontWeight={'bold'}>Screen Record</Text></Box>
                             <Box><Text>Browser Window</Text></Box>
                             <Box><Text>Desktop</Text></Box>
                             <Box><Text>Application</Text></Box>
