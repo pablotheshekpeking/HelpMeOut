@@ -57,9 +57,9 @@ const Ready = () => {
 
 
             </Box>
-            <Divider />
+            <Divider orientation='vertical' />
             <Box>
-                <Stack direction={'row'}>
+                <Stack direction={'column'}>
                     <Box><Img src='/video.png' /></Box>
                     <Box><Img src='/transcript.png' /></Box>
                 </Stack>
