@@ -10,7 +10,7 @@ const Ready = () => {
             minH={'100vh'}
             p={'50px'}
         >
-            <Box>
+            <Box w={'50%'}>
                 <Heading color={'#141414'} size={'lg'} mb={'20px'}>Your video is ready!</Heading>
 
                 <Text fontSize={'15px'}>Name </Text>
@@ -58,7 +58,7 @@ const Ready = () => {
 
             </Box>
             <Divider orientation='vertical' />
-            <Box>
+            <Box w={'50%'}>
                 <Stack direction={'column'}>
                     <Box><Img src='/video.png' /></Box>
                     <Box><Img src='/transcript.png' /></Box>
