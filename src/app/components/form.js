@@ -34,16 +34,16 @@ export default function Form() {
                         </Text>
                         {/** other login */}
                         <Box border={'1px solid'} borderColor={'black'} borderRadius={'20px'} mb={'20px'} mt={'50px'} w={'100%'}>
-                            <Stack direction={'row'} p={'20px'} w={'100%'}>
-                                <Box><Img src='/Google.png' /></Box>
-                                <Box><Text>Continue with Google</Text></Box>
+                            <Stack direction={'row'} p={'10px'} w={'100%'}>
+                                <Box align={'center'}><Img src='/Google.png' /></Box>
+                                <Box><Text textAlign={'center'}>Continue with Google</Text></Box>
                             </Stack>
                         </Box>
 
                         <Box border={'1px solid'} borderColor={'black'} borderRadius={'20px'} w={'100%'}>
-                            <Stack direction={'row'} p={'20px'} w={'100%'}>
-                                <Box><Img src='/Facebook.png' /></Box>
-                                <Box><Text>Continue with Facebook</Text></Box>
+                            <Stack direction={'row'} p={'10px'} w={'100%'}>
+                                <Box align={'center'}><Img src='/Facebook.png' /></Box>
+                                <Box><Text textAlign={'center'}>Continue with Facebook</Text></Box>
                             </Stack>
                         </Box>
                     </Stack>
