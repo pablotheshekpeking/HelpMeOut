@@ -24,6 +24,8 @@ export function Providers({ children }) {
 
         <HowItWorks />
 
+        <Footer />
+
       </ChakraProvider>
     </CacheProvider>
   );
