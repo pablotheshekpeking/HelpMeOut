@@ -36,14 +36,14 @@ export default function Form() {
                         <Box border={'1px solid'} borderColor={'black'} borderRadius={'20px'} mb={'20px'} mt={'50px'} w={'100%'}>
                             <Stack direction={'row'} p={'10px'} w={'100%'}>
                                 <Box w={'50%'} align={'center'}><Img src='/Google.png' /></Box>
-                                <Box w={'50%'}><Text textAlign={'center'}>Continue with Google</Text></Box>
+                                <Box w={'50%'}><Text>Continue with Google</Text></Box>
                             </Stack>
                         </Box>
 
                         <Box border={'1px solid'} borderColor={'black'} borderRadius={'20px'} w={'100%'}>
                             <Stack direction={'row'} p={'10px'} w={'100%'}>
                                 <Box align={'center'} w={'50%'}><Img src='/Facebook.png' /></Box>
-                                <Box w={'50%'}><Text textAlign={'center'}>Continue with Facebook</Text></Box>
+                                <Box w={'50%'}><Text>Continue with Facebook</Text></Box>
                             </Stack>
                         </Box>
                     </Stack>
