@@ -20,12 +20,12 @@ import Link from "next/link";
 export default function Form() {
     return (
         <>
+        <Link href={'../'}><Img src='/logo.png' pl={'100px'} /></Link>
             <Flex
                 minH={'100vh'}
                 align={'center'}
                 justify={'center'}
             >
-                <Link href={'../'}><Img src='/logo.png' pl={'100px'} /></Link>
                 <Stack spacing={8} mx={'auto'} maxW={'lg'} py={12} px={6}>
                     <Stack align={'center'} direction={'column'}>
                         <Heading fontSize={'4xl'}>Log in or Sign up</Heading>
