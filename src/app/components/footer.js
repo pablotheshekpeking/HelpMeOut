@@ -12,25 +12,25 @@ const Footer = () => {
                 <Stack direction={'row'}>
                     <Box className='Menu' w={'33.3%'}>
                         <Stack direction={'column'}>
-                            <Box mb={'25px'}><Text fontWeight={'bold'}>Menu</Text></Box>
-                            <Box mb={'25px'}><Text>Home</Text></Box>
-                            <Box mb={'25px'}><Text>Converter</Text></Box>
+                            <Box mb={'20px'}><Text fontWeight={'bold'}>Menu</Text></Box>
+                            <Box mb={'20px'}><Text>Home</Text></Box>
+                            <Box mb={'20px'}><Text>Converter</Text></Box>
                             <Box><Text>How It Works</Text></Box>
                         </Stack>
                     </Box>
                     <Box className='About us' w={'33.3%'}>
                         <Stack direction={'column'}>
-                            <Box mb={'25px'}><Text fontWeight={'bold'}>About us</Text></Box>
-                            <Box mb={'25px'}><Text>About</Text></Box>
-                            <Box mb={'25px'}><Text>Contact us</Text></Box>
+                            <Box mb={'20px'}><Text fontWeight={'bold'}>About us</Text></Box>
+                            <Box mb={'20px'}><Text>About</Text></Box>
+                            <Box mb={'20px'}><Text>Contact us</Text></Box>
                             <Box><Text>Privacy Policy</Text></Box>
                         </Stack>
                     </Box>
                     <Box className='Screen Record' w={'33.3%'}>
                         <Stack direction={'column'}>
-                            <Box mb={'25px'}><Text fontWeight={'bold'}>Screen Record</Text></Box>
-                            <Box mb={'25px'}><Text>Browser Window</Text></Box>
-                            <Box mb={'25px'}><Text>Desktop</Text></Box>
+                            <Box mb={'20px'}><Text fontWeight={'bold'}>Screen Record</Text></Box>
+                            <Box mb={'20px'}><Text>Browser Window</Text></Box>
+                            <Box mb={'20px'}><Text>Desktop</Text></Box>
                             <Box><Text>Application</Text></Box>
                         </Stack>
                     </Box>
