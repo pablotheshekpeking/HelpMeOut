@@ -6,6 +6,7 @@ import Navbar from './components/navbar';
 import Hero from './components/hero';
 import Features from './components/features';
 import HowItWorks from './components/howitworks';
+import Footer from './components/footer';
 
 export function Providers({ children }) {
   return (
