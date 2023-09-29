@@ -19,6 +19,8 @@ export function Providers({ children }) {
 
         <Features />
 
+        <Box w={'100%'} h={'50px'} bg={'#F4F6F8'}></Box>
+
       </ChakraProvider>
     </CacheProvider>
   );

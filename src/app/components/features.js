@@ -20,6 +20,7 @@ const Features = () => {
                 direction={['column', 'column', 'row', 'row']}
                 pr={'50px'}
                 pl={'50px'}
+                pb={'50px'}
             >
                 <Box m={'auto'}><Img src="/Check.png" /></Box>
                 <Box m={'auto'}><Img src="/features.png" /></Box>
