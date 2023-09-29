@@ -31,7 +31,7 @@ const Navbar = () => {
             <Box m={'auto'} w={'25%'}>
                 <Link href={'./login'}><Heading size='xs' color={'#100A42'} textAlign={'center'} float={'right'}
                     _hover={{
-                        bg: 'blue.500',
+                        color: 'blue.500',
                     }}>Get Started</Heading></Link>
             </Box>
         </Stack>
