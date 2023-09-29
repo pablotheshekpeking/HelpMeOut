@@ -22,7 +22,7 @@ const HowItWorks = () => {
                 <Img src='Icon1.png' m={'auto'} />
                     <Stack direction={'column'}>
                         <Box>
-                            <Heading color={'#100A42'} p={'15px'}>Record Screen</Heading>
+                            <Heading color={'#100A42'} p={'15px'} size={'sm'}>Record Screen</Heading>
                             <Text color={'grey'}>Click the "Start Recording" button in our extension.  choose which part of your screen to capture and who you want to send it to.</Text>
                         </Box>
                         <Box pt={'30px'}><Img src='hiwimg.png' m={'auto'} /></Box>
@@ -32,7 +32,7 @@ const HowItWorks = () => {
                 <Img src='Icon2.png' m={'auto'} />
                     <Stack direction={'column'}>
                         <Box>
-                            <Heading color={'#100A42'} p={'15px'}>Share Your Recording</Heading>
+                            <Heading color={'#100A42'} p={'15px'} size={'sm'}>Share Your Recording</Heading>
                             <Text color={'grey'}>We generate a shareable link for your video. Simply send it to your audience via email or copy the link to send via any platform.</Text>
                         </Box>
                         <Box pt={'30px'}><Img src='hiwimg.png' m={'auto'} /></Box>
@@ -42,7 +42,7 @@ const HowItWorks = () => {
                 <Img src='Icon3.png' m={'auto'} />
                     <Stack direction={'column'}>
                         <Box>
-                            <Heading color={'#100A42'} p={'15px'}>Learn Effortlessly</Heading>
+                            <Heading color={'#100A42'} p={'15px'} size={'sm'}>Learn Effortlessly</Heading>
                             <Text color={'grey'}>Recipients can access your video effortlessly through the provided link, with our user-friendly interface suitable for everyone.</Text>
                         </Box>
                         <Box pt={'30px'}><Img src='hiwimg.png' m={'auto'} /></Box>
