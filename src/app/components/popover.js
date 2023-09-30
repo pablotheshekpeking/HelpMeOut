@@ -11,11 +11,11 @@ const Popover1 = () => {
                 <Text textAlign={'center'}>Your video link has been sent to <span style={{ color: '#120B48', }}>johnmark@gmail.com</span></Text>
             </Box>
             <Box textAlign={'center'} m={'auto'} pt={'50px'} pb={'50px'}>
-                <Text fontWeight={'bold'} color={'#141414'} textAlign={'center'}>Would you need to view this video later? Save to your account now!</Text>
-                <Button bg={'#120B48'} p={'20px'} mt={'40px'} mb={'40px'} color={'white'} w={'90px'}>
+                <Text color={'#141414'} textAlign={'center'}>Would you need to view this video later? Save to your account now!</Text>
+                <Button bg={'#120B48'} p={'30px'} mt={'40px'} mb={'40px'} color={'white'} w={'90px'}>
                     Save Video
                 </Button>
-                <Text fontWeight={'bold'} color={'#7E7E7E'} textAlign={'center'}>Don’t have an account? <Link href={'../login'}><span style={{ color: '#120B48', }}>Create account</span></Link></Text>
+                <Text color={'#7E7E7E'} textAlign={'center'}>Don’t have an account? <Link href={'../login'}><span style={{ color: '#120B48', }}>Create account</span></Link></Text>
             </Box>
         </Stack>
     );
