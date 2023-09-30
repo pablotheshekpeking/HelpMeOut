@@ -5,10 +5,10 @@ import React from 'react';
 const Footer = () => {
     return (
         <Stack direction={['column', 'column', 'row', 'row']} bg={'#120B48'} p={'100px'}>
-            <Box w={'40%'}>
+            <Box w={['100%', '100%', '40%', '40%']}>
                 <Img src='footerLogo.png' />
             </Box>
-            <Box w={'60%'} color={'white'} fontSize={['8px', '8px', '15px', '15px']}>
+            <Box w={['100%', '100%', '60%', '60%']} color={'white'} fontSize={['8px', '8px', '15px', '15px']}>
                 <Stack direction={'row'}>
                     <Box className='Menu' w={'33.3%'}>
                         <Stack direction={'column'}>
