@@ -6,6 +6,7 @@ import {
     Popover, PopoverTrigger, PopoverContent, PopoverHeader, PopoverBody, PopoverFooter, PopoverArrow, PopoverCloseButton, PopoverAnchor,
 } from '@chakra-ui/react'
 import Link from 'next/link';
+import Popover1 from '../components/popover';
 const Create = () => {
     return (
         <Stack bg={'rgba(231, 231, 237, 0.20)'} mt={'50px'} mb={'50px'}>
@@ -22,7 +23,7 @@ const Create = () => {
                         <PopoverArrow />
                         <PopoverCloseButton />
                         <PopoverHeader>Confirmation!</PopoverHeader>
-                        <PopoverBody>Are you sure you want to have that milkshake?</PopoverBody>
+                        <PopoverBody> <Popover1 /> </PopoverBody>
                     </PopoverContent>
                 </Popover>
                 <Text fontWeight={'bold'} color={'#7E7E7E'}>Don’t have an account? <Link href={'../login'}><span style={{ color: '#120B48', textDecorationLine: 'underline', }}>Create account</span></Link></Text>
