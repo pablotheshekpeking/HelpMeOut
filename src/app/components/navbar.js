@@ -6,7 +6,7 @@ import React from "react";
 const Navbar = () => {
     return (
         <Stack
-            direction={['column', 'column', 'row', 'row']}
+            direction={'row'}
             pr={'50px'} pl={'50px'} pt={'20px'} pb={'20px'}
             m={'auto'}
             borderBottom={'2px solid'} borderColor={'#dddddd'}>
