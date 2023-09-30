@@ -4,7 +4,7 @@ import { Stack, Box, Img, Text } from '@chakra-ui/react';
 import React from 'react';
 const Footer = () => {
     return (
-        <Stack direction={['column', 'column', 'row', 'row']} bg={'#120B48'} p={'100px'}>
+        <Stack direction={['column', 'column', 'row', 'row']} bg={'#120B48'} p={['50px', '50px', '100px', '100px']}>
             <Box w={['100%', '100%', '40%', '40%']}>
                 <Img src='footerLogo.png' />
             </Box>
