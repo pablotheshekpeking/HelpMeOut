@@ -1,5 +1,5 @@
 'use client'
-import { Stack, Box, Img, Text, Heading } from "@chakra-ui/react";
+import { Stack, Box, Img, Text, Heading, Hide } from "@chakra-ui/react";
 import Link from "next/link";
 import React from "react";
 
@@ -16,16 +16,18 @@ const Navbar = () => {
             </Box>
 
             {/** nav items */}
-            <Box m={'auto'} w={'50%'}>
-                <Stack direction={['column', 'column', 'row', 'row']} m={['0px', '0px', 'auto', 'auto']}>
-                    <Box w={'25%'} m={['0px', '0px', 'auto', 'auto']}>
-                        <Text color={'#100A42'}>Features</Text>
-                    </Box>
-                    <Box w={'25%'} m={['0px', '0px', 'auto', 'auto']}>
-                        <Text color={'#100A42'}>How It Works</Text>
-                    </Box>
-                </Stack>
-            </Box>
+            <Hide below="lg">
+                <Box m={'auto'} w={'50%'}>
+                    <Stack direction={['column', 'column', 'row', 'row']} m={['0px', '0px', 'auto', 'auto']}>
+                        <Box w={'25%'} m={['0px', '0px', 'auto', 'auto']}>
+                            <Text color={'#100A42'}>Features</Text>
+                        </Box>
+                        <Box w={'25%'} m={['0px', '0px', 'auto', 'auto']}>
+                            <Text color={'#100A42'}>How It Works</Text>
+                        </Box>
+                    </Stack>
+                </Box>
+            </Hide>
 
             {/** login link */}
             <Box m={['0px', '0px', 'auto', 'auto']} w={'25%'}>
