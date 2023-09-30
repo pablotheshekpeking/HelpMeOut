@@ -17,7 +17,7 @@ const Create = () => {
                     <PopoverTrigger>
                         <Button bg={'#120B48'} p={'20px'} mt={'40px'} mb={'40px'} color={'white'} w={'90px'}>
                             Send
-                        </Button>
+                        </Button> 
                     </PopoverTrigger>
                     <PopoverContent>
                         <PopoverArrow />
