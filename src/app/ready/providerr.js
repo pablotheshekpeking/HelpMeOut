@@ -4,6 +4,7 @@ import { ChakraProvider } from '@chakra-ui/react';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import Ready from '../components/ready';
+import Create from '../components/createaccount';
 
 export function Providersr({ children }) {
   return (
@@ -13,6 +14,8 @@ export function Providersr({ children }) {
         <Navbar />
 
         <Ready />
+
+        <Create />
 
 
         <Footer />
