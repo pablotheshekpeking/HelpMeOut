@@ -8,7 +8,7 @@ const Footer = () => {
             <Box w={'40%'}>
                 <Img src='footerLogo.png' />
             </Box>
-            <Box w={'60%'} color={'white'}>
+            <Box w={'60%'} color={'white'} fontSize={['11px', '11px', '15px', '15px']}>
                 <Stack direction={'row'}>
                     <Box className='Menu' w={'33.3%'}>
                         <Stack direction={'column'}>
