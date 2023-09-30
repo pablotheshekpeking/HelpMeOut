@@ -4,12 +4,12 @@ import { Stack, Box, Img, Text } from '@chakra-ui/react';
 import React from 'react';
 const Footer = () => {
     return (
-        <Stack direction={'row'} bg={'#120B48'} p={'100px'}>
+        <Stack direction={['column', 'column', 'row', 'row']} bg={'#120B48'} p={'100px'}>
             <Box w={'40%'}>
                 <Img src='footerLogo.png' />
             </Box>
             <Box w={'60%'} color={'white'}>
-                <Stack direction={['column', 'column', 'row', 'row']}>
+                <Stack direction={'row'}>
                     <Box className='Menu' w={'33.3%'}>
                         <Stack direction={'column'}>
                             <Box mb={'20px'}><Text fontWeight={'bold'}>Menu</Text></Box>
