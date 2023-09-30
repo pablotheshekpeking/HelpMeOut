@@ -13,7 +13,7 @@ const Create = () => {
             <Box textAlign={'center'} m={'auto'} pt={'50px'} pb={'50px'}>
                 <Text fontWeight={'bold'} color={'#141414'}>To ensure the availability and privacy of your video, we recommend saving it to your account.</Text>
 
-                <Popover>
+                <Popover placement='top-start'>
                     <PopoverTrigger>
                         <Button bg={'#120B48'} p={'20px'} mt={'40px'} mb={'40px'} color={'white'} w={'90px'}>
                             Send
@@ -21,8 +21,7 @@ const Create = () => {
                     </PopoverTrigger>
                     <PopoverContent>
                         <PopoverArrow />
-                        <PopoverCloseButton />
-                        <PopoverHeader>Confirmation!</PopoverHeader>
+                        <PopoverCloseButton color={'#120B48'} />
                         <PopoverBody> <Popover1 /> </PopoverBody>
                     </PopoverContent>
                 </Popover>
