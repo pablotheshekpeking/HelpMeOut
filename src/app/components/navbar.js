@@ -11,18 +11,18 @@ const Navbar = () => {
             m={'auto'}
             borderBottom={'2px solid'} borderColor={'#dddddd'}>
             {/** logo */}
-            <Box w={'25%'}>
+            <Box w={['50%', '50%', '25%', '25%']}>
                 <Link href={'./'}><Img src="/logo.png" /></Link>
             </Box>
 
             {/** nav items */}
             <Hide below="lg">
                 <Box m={'auto'} w={'50%'}>
-                    <Stack direction={['column', 'column', 'row', 'row']} m={['0px', '0px', 'auto', 'auto']}>
+                    <Stack direction={'row'} m={'auto'}>
                         <Box w={'25%'} m={['0px', '0px', 'auto', 'auto']}>
                             <Text color={'#100A42'}>Features</Text>
                         </Box>
-                        <Box w={'25%'} m={['0px', '0px', 'auto', 'auto']}>
+                        <Box w={'25%'} m={'auto'}>
                             <Text color={'#100A42'}>How It Works</Text>
                         </Box>
                     </Stack>
@@ -30,7 +30,7 @@ const Navbar = () => {
             </Hide>
 
             {/** login link */}
-            <Box m={['0px', '0px', 'auto', 'auto']} w={'25%'}>
+            <Box m={'auto'} w={['50%', '50%', '25%', '25%']}>
                 <Link href={'./login'}><Heading size='xs' color={'#100A42'} textAlign={'center'} float={'right'}
                     _hover={{
                         color: 'blue.500',
