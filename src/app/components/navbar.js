@@ -17,7 +17,7 @@ const Navbar = () => {
 
             {/** nav items */}
             <Box m={'auto'} w={'50%'}>
-                <Stack direction={'row'} m={'auto'}>
+                <Stack direction={['column', 'column', 'row', 'row']} m={'auto'}>
                     <Box w={'25%'} m={'auto'}>
                         <Text color={'#100A42'}>Features</Text>
                     </Box>
