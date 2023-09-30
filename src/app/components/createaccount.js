@@ -10,7 +10,7 @@ const Create = () => {
                 <Button bg={'#120B48'} p={'20px'} mt={'40px'} mb={'40px'} color={'white'} w={'90px'}>
                     Send
                 </Button>
-                <Text color={'#7E7E7E'}>Don’t have an account? <span style={{color: '#120B48',}}>Create account</span></Text> 
+                <Text color={'#7E7E7E'}>Don’t have an account? <span style={{color: '#120B48', textDecorationLine: 'underline',}}>Create account</span></Text> 
             </Box>
         </Stack>
      );
