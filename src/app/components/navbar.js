@@ -17,18 +17,18 @@ const Navbar = () => {
 
             {/** nav items */}
             <Box m={'auto'} w={'50%'}>
-                <Stack direction={['column', 'column', 'row', 'row']} m={'auto'}>
-                    <Box w={'25%'} m={'auto'}>
+                <Stack direction={['column', 'column', 'row', 'row']} m={['0px', '0px', 'auto', 'auto']}>
+                    <Box w={'25%'} m={['0px', '0px', 'auto', 'auto']}>
                         <Text color={'#100A42'}>Features</Text>
                     </Box>
-                    <Box w={'25%'} m={'auto'}>
+                    <Box w={'25%'} m={['0px', '0px', 'auto', 'auto']}>
                         <Text color={'#100A42'}>How It Works</Text>
                     </Box>
                 </Stack>
             </Box>
 
             {/** login link */}
-            <Box m={'auto'} w={'25%'}>
+            <Box m={['0px', '0px', 'auto', 'auto']} w={'25%'}>
                 <Link href={'./login'}><Heading size='xs' color={'#100A42'} textAlign={'center'} float={'right'}
                     _hover={{
                         color: 'blue.500',
