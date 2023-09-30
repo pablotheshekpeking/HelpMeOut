@@ -58,7 +58,7 @@ const Ready = () => {
             </Box>
             
             {/** right side */}
-            <Box w={['100%', '1005', '50%', '50%']} borderLeft={'2px solid'} borderColor={'#BBBBBB'}>
+            <Box w={['100%', '100%', '50%', '50%']} borderLeft={['none', 'none', '2px solid', '2px solid']} borderColor={'#BBBBBB'}>
                 <Stack direction={'column'} p={'40px'}>
                     <Box mb={'50px'}><Img src='/video.png' /></Box>
                     <Box><Img src='/transcript.png' /></Box>
