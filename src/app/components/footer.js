@@ -9,7 +9,7 @@ const Footer = () => {
                 <Img src='footerLogo.png' />
             </Box>
             <Box w={'60%'} color={'white'}>
-                <Stack direction={'row'}>
+                <Stack direction={['column', 'column', 'row', 'row']}>
                     <Box className='Menu' w={'33.3%'}>
                         <Stack direction={'column'}>
                             <Box mb={'20px'}><Text fontWeight={'bold'}>Menu</Text></Box>
