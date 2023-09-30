@@ -1,7 +1,8 @@
 'use client'
 
 import React from "react";
-import { Stack, Box, Text, Heading, Button } from '@chakra-ui/react';
+import { Stack, Box, Text, Button } from '@chakra-ui/react';
+import Link from 'next/link';
 const Create = () => {
     return ( 
         <Stack bg={'rgba(231, 231, 237, 0.20)'} mt={'50px'} mb={'50px'}>
@@ -10,7 +11,7 @@ const Create = () => {
                 <Button bg={'#120B48'} p={'20px'} mt={'40px'} mb={'40px'} color={'white'} w={'90px'}>
                     Send
                 </Button>
-                <Text color={'#7E7E7E'}>Don’t have an account? <span style={{color: '#120B48', textDecorationLine: 'underline',}}>Create account</span></Text> 
+                <Text color={'#7E7E7E'}>Don’t have an account? <Link href={'../login'}><span style={{color: '#120B48', textDecorationLine: 'underline',}}>Create account</span></Link></Text> 
             </Box>
         </Stack>
      );
