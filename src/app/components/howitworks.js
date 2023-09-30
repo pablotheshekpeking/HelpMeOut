@@ -14,7 +14,6 @@ const HowItWorks = () => {
         {/** content */}
             <Stack 
             direction={['column', 'column', 'row', 'row']}
-            justify={'center'}
             pr={'50px'}
             pl={'50px'}
             pb={'50px'}
