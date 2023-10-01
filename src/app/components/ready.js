@@ -20,18 +20,23 @@ const Ready = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Fetch the video from the provided endpoint
+    // Fetch the list of videos from the provided endpoint
     fetch('https://chrome-extension-2njn.onrender.com/videoupload/')
       .then((response) => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
-        return response.blob();
+        return response.json();
       })
-      .then((videoBlob) => {
-        // Create a video URL from the fetched video blob
-        const url = URL.createObjectURL(videoBlob);
-        setVideoUrl(url);
+      .then((videoList) => {
+        // Sort the videos by creation timestamp (you may need to adjust the property)
+        videoList.sort((a, b) => b.timestamp - a.timestamp);
+
+        // Get the latest video
+        const latestVideo = videoList[0];
+
+        // Create a video URL from the latest video's URL
+        setVideoUrl(latestVideo.url);
         setLoading(false);
       })
       .catch((error) => {
