@@ -75,7 +75,7 @@ const Ready = () => {
                     />
                     <InputRightElement width="4.5rem">
 
-                        <Popover placement='top-start'>
+                        <Popover placement='bottom'>
                             <PopoverTrigger>
                                 <Button h="1.75rem" size="sm" bg={'#605C84'}>
                                     Send
