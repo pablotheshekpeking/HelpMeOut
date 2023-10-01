@@ -4,7 +4,7 @@ import React from "react";
 import { Stack, Box, Text, Button } from '@chakra-ui/react';
 import {
     Popover, PopoverTrigger, PopoverContent, PopoverHeader, PopoverBody, PopoverFooter, PopoverArrow, PopoverCloseButton, PopoverAnchor,
-} from '@chakra-ui/react'
+} from '@chakra-ui/react';
 import Link from 'next/link';
 import Popover1 from '../components/popover';
 const Create = () => {
